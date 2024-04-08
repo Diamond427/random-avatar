@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Avatar Maker</title>
+  <style>
+    body {
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      background-color: #f4eef1;
+    }
+    #container {
+      display: grid;
+      grid-template-columns: 100px 100px 100px 100px 100px;
+      width: 500px;
+      margin: auto;
+    }
+    #viewer {
+      width: 500px;
+      background-color: #eef4f1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+  <div id="viewer">
+    <img id="display">
+  </div>
+
+  <script>
+    const total = 166361650;
+    let cnt = 0;
+
+    function addone() {
+      const img = document.createElement('img');
+      const id = Math.floor(Math.random() * total);
+
+      img.src = `https://avatars.githubusercontent.com/u/${id}?s=100`
+      img.onload = () => {
+        if(img.width === 100) {
+          container.appendChild(img);
+          img.onclick = () => display.src = img.src.slice(0, -6);
+        }
+        else
+          addone();
+      }
+    }
+
+    window.onload = function() {
+      [...Array(25)].map(addone)
+    }
+  </script>
+</body>
+</html>
