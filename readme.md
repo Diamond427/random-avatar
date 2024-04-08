@@ -1,9 +1,16 @@
-## Random avatar maker; only 2Kb 💪💪💪
+# Random avatar maker; with AI model 💪💪💪
 
-Hope you enjoy 🙄
+## What's COOL 😎
 
-by `💎`
+- able to generate up to `1e7+` different avatars
+- pretty QUICK; able to generate 25 avatars within 10 secs
+- only `1kb`; have you ever seen AI model so TINY? 😲
+- high quality; produce hq images
+
+### Hope you enjoy 🙄
+
+### by 💎
 
 ```
-not really maker; just a scraper 😁
+P.S. not really maker; just a scraper 😁
 ```
