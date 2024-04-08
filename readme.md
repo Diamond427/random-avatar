@@ -1,4 +1,4 @@
-## Random avatar maker 💪💪💪
+## Random avatar maker; only 2Kb 💪💪💪
 
 Hope you enjoy 🙄
 
