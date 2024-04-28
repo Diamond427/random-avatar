@@ -9,7 +9,7 @@
 
 ### Hope you enjoy 🙄
 
-### by 💎 (me)
+### by 💎 (me && babeingineer)
 
 ```
 P.S. not really maker; just a scraper 😁
